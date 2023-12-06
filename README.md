@@ -2,15 +2,14 @@
 
 基于CrystalMir2项目所衍生出来的的服务端,客户端的配置,脚本示例介绍
 
-Wiki地址: [https://github.com/CrystalMir2/CrystalMir-Wiki/wiki](https://github.com/CrystalMir2/CrystalMir-Wiki/wiki)
+[Web](https://mir2wiki.5218888.xyz)
 
+[GitHub](https://github.com/CrystalMir2/wiki)
 # 中文引擎介绍:
 
 ### CrystalM2
 
-一个基于Crystal,客户端为`Unity3D`重写的版本
-
-更多内容见: [./CrystalM2/CrystalM2.md](https://github.com/CrystalMir2/CrystalMir-Wiki/blob/main/CrystalM2/CrystalM2.md)
+一个基于Crystal,客户端为`Unity3D`重写的版本 [更多](./docs/server/CrystalM2.md)
 
 
 ### 水晶
