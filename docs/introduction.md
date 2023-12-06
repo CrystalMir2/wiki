@@ -30,3 +30,8 @@ CrystalM2简称CM2, 是一个用于制作MMORPG的游戏引擎,基于Crystal的2
 ![image](https://github.com/CrystalMir2/CrystalMir-Wiki/assets/143333779/30060f39-c7d8-4e45-a04a-2a0ca2de990c)
 
 ![image](https://github.com/CrystalMir2/CrystalMir-Wiki/assets/143333779/234af8b9-777e-4848-a3ed-a973136edcce)
+
+
+----
+
+> Powered by docsify
