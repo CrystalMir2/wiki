@@ -14,25 +14,33 @@
 </head>
 <body>
   <div id="app"></div>
-
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   
   <script>
-    var repo = 'https://github.com/CrystalMir2/wiki/';
+    var repoUrl = 'https://github.com/CrystalMir2/wiki/';
     window.$docsify = {
       name: 'Mir2',
-      repo: repo,
+      repo: repoUrl,
 	  loadSidebar: true,
 	  coverpage: false,
 	  plugins: [
         EditOnGithubPlugin.create(
-          `${repo}/tree/main/docs`
+          `${repoUrl}/tree/main/docs/`
         ),
+	  ],
+	  pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+      },
     }
   </script>
+  
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  
 </body>
 </html>

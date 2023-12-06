@@ -6,8 +6,8 @@
 - 客户端
 
   - [Unity3D](client/CrystalUnityClient.md)
-  - [MonoGame](client/CrystalUnityClient.md)
-  - [SlimeDX](client/CrystalUnityClient.md)
+  - [MonoGame](client/MonoGame.md)
+  - [SlimeDX](client/SlimeDX.md)
  
 
 - 服务端
