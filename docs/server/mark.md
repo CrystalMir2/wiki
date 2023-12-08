@@ -24,3 +24,11 @@
 Adding a buff skill with a buff timer.
 
 原文: https://www.lomcn.net/forum/threads/adding-a-buff-skill-with-a-buff-timer.90082/
+
+
+#### 地图编辑器
+
+> 总结: 兼容2和3的地图,并且可混用各自贴图格式
+> 同时有一些关于`TilesSet`(地砖集,如一颗完整的树,房子)的讨论
+
+原文: https://www.lomcn.net/forum/threads/map-editor-project.94429/
