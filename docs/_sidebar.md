@@ -20,3 +20,7 @@
   - [linux](publish/CrystalLinux.md)
   - [windows](publish/CrystalLinux.md)
   - [AOT](publish/CrystalLinux.md)
+ 
+- 教程
+  
+  - [好文摘录](server/mark.md) 
