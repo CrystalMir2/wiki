@@ -7,26 +7,40 @@
 - 不占用玩家装备格子,可叠加多个
 - 在脚本中可动态的给予和移除称号
 - 可脚本动态修改称号属性,自定义属性词条
-
 - 可设置限时装备,到期自动回收
-- 称号按名称唯一,不会出现多个同名称号
 - 可自定义外观(无方向和动作)
-
 - 可利用穿戴触发(TakeOn)和装备检测(CheckEquipItem),限时装备实现铭文,成就,动态Buffer等功能
 
 ![recording](./res/fenghao.gif)
 
 ### 如何在脚本动态给予和移除玩家称号
 
+
+
+称号按名称唯一,
+
+- 多次给予同名称号仅最后一个生效
+
+- 多次给与同名称号会刷新称号的属性(如过期时间,隐藏显示),
+
+- 玩家同时存在多个可显示外观特效的称号,仅显示最后一个称号的外观
+
+
+
 ```js
 //称号相关
 function 称号给与() {
-    if (getRandomInt(2)==1){ //50%的概率给与独步天下称号
-        ctx.GiveFengHao("独步天下");
-        ctx.GiveFengHao("独步天下");//只会有一个生效
-    }else{
-        ctx.GiveFengHao("玛法至尊");
-    }
+    var hidden = getRandomInt(2) == 1;
+    ctx.GiveFengHao("独步天下", hidden);
+    console.log("hide fenghao:" +hidden);
+    ctx.GiveFengHao("玛法至尊",!hidden);
+    ctx.close();
+    return ``;
+}
+
+function 称号回收() {
+    ctx.RecycFengHao("独步天下");
+    ctx.RecycFengHao("玛法至尊");
     ctx.close();
     return ``;
 }
