@@ -38,5 +38,5 @@ Adding a buff skill with a buff timer.
 
 无障碍访问Github:
 
- [教程](./Other/GitHubHost.md)
+ [教程](server/Other/GitHubHost.md)
 

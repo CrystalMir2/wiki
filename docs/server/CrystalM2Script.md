@@ -4,11 +4,11 @@ CrystalM2的脚本系统
 
 
 
-称号系统: [称号系统](./Features/称号Buffer.md)
+称号系统: [称号系统](server/Features/称号Buffer.md)
 
-限时装备: [限时装备](./Features/限时装备.md)
+限时装备: [限时装备](server/Features/限时装备.md)
 
-资源编辑器: [资源编辑器](./Features/CrystalLibEditor.md)
+资源编辑器: [资源编辑器](server/Features/CrystalLibEditor.md)
 
 
 
