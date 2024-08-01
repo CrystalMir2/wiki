@@ -1,6 +1,18 @@
 ### CrystalM2Script
 
 CrystalM2的脚本系统
+
+
+
+称号系统: [称号系统](./Features/称号Buffer.md)
+
+限时装备: [限时装备](./Features/限时装备.md)
+
+资源编辑器: [资源编辑器](./Features/CrystalLibEditor.md)
+
+
+
+
 ## 触发与特效
 
 #### 技能触发
@@ -251,6 +263,7 @@ function 双击触发$双击触发$Main(id,shape,name,friendlyName) {
 - 持久数据,永久保存
 
   
+
 针对数据的归属对象,分为2种
 
 - 全局,服务器持有,全局贡献
